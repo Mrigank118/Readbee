@@ -27,7 +27,19 @@
     padding: 5px 0 0%; /* Adjust padding as needed */
      /* Hide vertical overflow */
   }
+  .custom-hover-effect {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+.custom-hover-effect:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.active-tab {
+    background-color: var(--accent);
+    border-radius: 50%;
+}
   .englebert-regular {
     font-family: "Englebert", cursive;
     font-weight: 400;
