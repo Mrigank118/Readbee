@@ -1,0 +1,44 @@
+my-nextjs-app/
+│
+├── public/                     # Public assets like images and fonts
+│
+├── src/
+│   ├── components/             # Reusable React components
+│   │   ├── Button.tsx
+│   │   ├── Navbar.tsx
+│   │   └── ...                 # Other components
+│   │
+│   ├── pages/                  # Next.js pages (routes)
+│   │   ├── api/                # API routes
+│   │   │   ├── auth/           # Authentication API routes
+│   │   │   │   ├── [...nextauth].ts
+│   │   │   │   ├── login.ts
+│   │   │   │   └── register.ts
+│   │   │   └── ...             # Other API routes
+│   │   │
+│   │   ├── auth/               # Authentication pages
+│   │   │   ├── signin.tsx
+│   │   │   └── ...             # Other auth-related pages
+│   │   │
+│   │   ├── index.tsx           # Main entry page
+│   │   ├── protected.tsx       # Example protected page
+│   │   └── ...                 # Other pages
+│   │
+│   ├── styles/                 # Global styles
+│   │   ├── globals.css
+│   │   └── ...                 # Other styles
+│   │
+│   ├── utils/                  # Utility functions
+│   │   ├── auth.ts             # Authentication helpers
+│   │   └── ...                 # Other utilities
+│   │
+│   └── prisma/                 # Prisma setup
+│       ├── schema.prisma       # Prisma schema file
+│       └── ...                 # Other Prisma-related files
+│
+├── .env                        # Environment variables
+├── .gitignore                  # Git ignore file
+├── next.config.js              # Next.js configuration
+├── package.json                # Project metadata and dependencies
+├── prisma.schema               # Prisma schema file (for Prisma Client)
+└── tsconfig.json               # TypeScript configuration (if using TypeScript)
